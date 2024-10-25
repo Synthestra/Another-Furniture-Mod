@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "group": "flower_boxes",
+    "key": {
+        "#": {
+            "item": "minecraft:cherry_planks"
+        },
+        "D": {
+            "item": "minecraft:dirt"
+        },
+        "S": {
+            "item": "minecraft:cherry_slab"
+        }
+    },
+    "pattern": [
+        "SDS",
+        "###"
+    ],
+    "result": {
+        "count": 3,
+        "id": "another_furniture:cherry_flower_box"
+    }
+}

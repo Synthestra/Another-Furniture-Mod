@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "group": "drawers",
+    "key": {
+        "#": {
+            "item": "minecraft:birch_planks"
+        },
+        "S": {
+            "item": "minecraft:birch_slab"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "pattern": [
+        "###",
+        "S/S",
+        "###"
+    ],
+    "result": {
+        "count": 1,
+        "id": "another_furniture:birch_drawer"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "group": "benches",
+    "key": {
+        "S": {
+            "item": "minecraft:acacia_slab"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "pattern": [
+        "/  ",
+        "SSS",
+        "/ /"
+    ],
+    "result": {
+        "count": 3,
+        "id": "another_furniture:acacia_bench"
+    }
+}

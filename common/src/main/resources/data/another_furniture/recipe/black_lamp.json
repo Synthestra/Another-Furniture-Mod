@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "group": "curtains",
+    "key": {
+        "/": {
+            "item": "minecraft:stick"
+        },
+        "W": {
+            "item": "minecraft:black_wool"
+        },
+        "T": {
+            "item": "minecraft:torch"
+        }
+    },
+    "pattern": [
+        " W ",
+        "WTW",
+        " / "
+    ],
+    "result": {
+        "count": 3,
+        "id": "another_furniture:black_lamp"
+    }
+}

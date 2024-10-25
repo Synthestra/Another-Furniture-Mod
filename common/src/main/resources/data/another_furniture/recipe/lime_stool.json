@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "group": "stools",
+    "key": {
+        "#": {
+            "tag": "minecraft:planks"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        },
+        "W": {
+            "item": "minecraft:lime_wool"
+        }
+    },
+    "pattern": [
+        "#W#",
+        "/ /"
+    ],
+    "result": {
+        "count": 3,
+        "id": "another_furniture:lime_stool"
+    }
+}

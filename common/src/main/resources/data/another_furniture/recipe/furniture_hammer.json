@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "#": {
+            "tag": "minecraft:planks"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        },
+        "S": {
+            "tag": "minecraft:wooden_slabs"
+        }
+    },
+    "pattern": [
+        " #S",
+        " /#",
+        "/  "
+    ],
+    "result": {
+        "id": "another_furniture:furniture_hammer"
+    }
+}

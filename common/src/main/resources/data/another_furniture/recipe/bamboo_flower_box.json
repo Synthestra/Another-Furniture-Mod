@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "group": "flower_boxes",
+    "key": {
+        "#": {
+            "item": "minecraft:bamboo_planks"
+        },
+        "D": {
+            "item": "minecraft:dirt"
+        },
+        "S": {
+            "item": "minecraft:bamboo_slab"
+        }
+    },
+    "pattern": [
+        "SDS",
+        "###"
+    ],
+    "result": {
+        "count": 3,
+        "id": "another_furniture:bamboo_flower_box"
+    }
+}

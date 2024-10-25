@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "group": "sofas",
+    "key": {
+        "#": {
+            "tag": "minecraft:planks"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        },
+        "W": {
+            "item": "minecraft:yellow_wool"
+        }
+    },
+    "pattern": [
+        "#W ",
+        "#WW",
+        "/ /"
+    ],
+    "result": {
+        "count": 3,
+        "id": "another_furniture:yellow_sofa"
+    }
+}

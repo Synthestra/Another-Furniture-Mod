@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "group": "tall_stools",
+    "key": {
+        "#": {
+            "tag": "minecraft:planks"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        },
+        "W": {
+            "item": "minecraft:yellow_wool"
+        }
+    },
+    "pattern": [
+        "#W#",
+        "///",
+        "/ /"
+    ],
+    "result": {
+        "count": 3,
+        "id": "another_furniture:yellow_tall_stool"
+    }
+}

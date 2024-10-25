@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "group": "benches",
+    "key": {
+        "S": {
+            "item": "minecraft:cherry_slab"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "pattern": [
+        "/  ",
+        "SSS",
+        "/ /"
+    ],
+    "result": {
+        "count": 3,
+        "id": "another_furniture:cherry_bench"
+    }
+}

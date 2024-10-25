@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "group": "tables",
+    "key": {
+        "#": {
+            "item": "minecraft:spruce_planks"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "pattern": [
+        "###",
+        "/ /"
+    ],
+    "result": {
+        "count": 3,
+        "id": "another_furniture:spruce_table"
+    }
+}

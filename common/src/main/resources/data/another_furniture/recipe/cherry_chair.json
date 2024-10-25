@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "group": "chairs",
+    "key": {
+        "#": {
+            "item": "minecraft:cherry_planks"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "pattern": [
+        "# ",
+        "##",
+        "//"
+    ],
+    "result": {
+        "count": 3,
+        "id": "another_furniture:cherry_chair"
+    }
+}

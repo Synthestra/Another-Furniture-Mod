@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "group": "curtains",
+    "key": {
+        "/": {
+            "item": "minecraft:stick"
+        },
+        "W": {
+            "item": "minecraft:lime_wool"
+        }
+    },
+    "pattern": [
+        "//",
+        "WW",
+        "WW"
+    ],
+    "result": {
+        "count": 3,
+        "id": "another_furniture:lime_curtain"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "building",
+    "group": "stools",
+    "ingredients": [
+        {
+            "item": "minecraft:red_dye"
+        },
+        {
+            "item": "another_furniture:white_stool"
+        }
+    ],
+    "result": {
+        "id": "another_furniture:red_stool"
+    }
+}

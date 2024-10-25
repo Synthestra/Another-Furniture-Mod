@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"group": "benches",
+	"key": {
+		"S": {
+			"item": "minecraft:oak_slab"
+		},
+		"/": {
+			"item": "minecraft:stick"
+		}
+	},
+	"pattern": [
+		"/  ",
+		"SSS",
+		"/ /"
+	],
+	"result": {
+		"count": 3,
+		"id": "another_furniture:oak_bench"
+	}
+}
