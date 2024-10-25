@@ -82,12 +82,6 @@ public class DrawerBlock extends BaseEntityBlock {
         return RenderShape.MODEL;
     }
 
-    public void setPlacedBy(Level level, BlockPos pos, BlockState state, @Nullable LivingEntity placer, ItemStack stack) {
-        //if (!stack.has(DataComponents.ITEM_NAME)) return; //todo
-
-        //BlockEntity blockEntity = level.getBlockEntity(pos);
-        //if (blockEntity instanceof DrawerBlockEntity drawerBlockEntity) drawerBlockEntity.setComponents(DataComponents.ITEM_NAME, stack.getHoverName());
-    }
     public boolean hasAnalogOutputSignal(BlockState state) {
         return true;
     }

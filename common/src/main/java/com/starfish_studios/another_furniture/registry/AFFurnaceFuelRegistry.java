@@ -7,7 +7,6 @@ import net.minecraft.world.level.ItemLike;
 
 public class AFFurnaceFuelRegistry {
     public static void init() {
-        register(AFItemTags.AWNINGS, 300);
         register(AFItemTags.BENCHES, 300);
         register(AFItemTags.CHAIRS, 300);
         register(AFItemTags.CURTAINS, 300);

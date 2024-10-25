@@ -58,7 +58,7 @@ public class ChairBlock extends SeatBlock implements SimpleWaterloggedBlock, Ham
 
     @Override
     public float seatHeight(BlockState state) {
-        return 0.15F;
+        return 0.35F;
     }
 
     @Override

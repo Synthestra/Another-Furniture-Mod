@@ -40,7 +40,7 @@ public class TallStoolBlock extends SeatBlock implements SimpleWaterloggedBlock 
 
     @Override
     public float seatHeight(BlockState state) {
-        return 0.7F;
+        return 0.95F;
     }
 
     @Override

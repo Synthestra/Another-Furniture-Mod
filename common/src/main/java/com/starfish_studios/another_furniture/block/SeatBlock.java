@@ -30,7 +30,7 @@ public class SeatBlock extends Block {
     }
 
     public float seatHeight(BlockState state) {
-        return 0.25F;
+        return 0.35F;
     }
 
     public boolean isSittable(BlockState state) {

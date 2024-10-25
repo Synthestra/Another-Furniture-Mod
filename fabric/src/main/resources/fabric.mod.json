@@ -24,7 +24,7 @@
   },
   "mixins": [
     "another_furniture.mixins.json",
-    "another_furniture-common.mixins.json"
+	"another_furniture.common.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.14.21",

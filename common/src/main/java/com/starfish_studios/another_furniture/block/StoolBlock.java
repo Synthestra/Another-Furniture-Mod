@@ -56,7 +56,7 @@ public class StoolBlock extends SeatBlock implements SimpleWaterloggedBlock, Ham
 
     @Override
     public float seatHeight(BlockState state) {
-        return state.getValue(LOW) ? 0.15F : 0.2F;
+        return state.getValue(LOW) ? 0.35F : 0.4F;
     }
 
     @Override

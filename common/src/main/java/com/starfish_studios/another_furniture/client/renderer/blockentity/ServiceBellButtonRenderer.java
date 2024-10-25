@@ -19,10 +19,11 @@ import net.minecraft.client.renderer.blockentity.BlockEntityRendererProvider;
 import net.minecraft.client.renderer.texture.TextureAtlas;
 import net.minecraft.client.resources.model.Material;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.inventory.InventoryMenu;
 
 @Environment(value= EnvType.CLIENT)
 public class ServiceBellButtonRenderer implements BlockEntityRenderer<ServiceBellBlockEntity> {
-    public static final Material BELL_TEXTURE = new Material(TextureAtlas.LOCATION_BLOCKS, AnotherFurniture.res("block/service_bell"));
+    public static final Material BELL_TEXTURE = new Material(InventoryMenu.BLOCK_ATLAS, AnotherFurniture.res("block/service_bell"));
     public static ModelLayerLocation SERVICE_BELL_MODEL = new ModelLayerLocation(AnotherFurniture.res("service_bell"), "service_bell");
     private final ModelPart button;
 

@@ -15,7 +15,9 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.TamableAnimal;
 import net.minecraft.world.entity.animal.Cat;
 import net.minecraft.world.entity.animal.Parrot;
+import net.minecraft.world.entity.animal.Pig;
 import net.minecraft.world.entity.animal.Wolf;
+import net.minecraft.world.entity.animal.camel.Camel;
 import net.minecraft.world.entity.monster.Creeper;
 import net.minecraft.world.entity.monster.Skeleton;
 import net.minecraft.world.entity.monster.Slime;
@@ -38,7 +40,6 @@ public class SeatEntity extends Entity {
         this(level);
         this.setPos(pos.getX() + 0.5, pos.getY() + 0.001, pos.getZ() + 0.5);
     }
-
     @Override
     public void tick() {
         if (this.level().isClientSide) return;
@@ -63,16 +64,20 @@ public class SeatEntity extends Entity {
     @Override
     protected void addAdditionalSaveData(CompoundTag compound) {}
 
-//    @Override
-//    public double getPassengersRidingOffset() {
-//        List<Entity> passengers = this.getPassengers();
-//        if (passengers.isEmpty()) return 0.0;
-//        double seatHeight = 0.0;
-//        BlockState state = level().getBlockState(this.blockPosition());
-//        if (state.getBlock() instanceof SeatBlock seatBlock) seatHeight = seatBlock.seatHeight(state);
-//
-//        return seatHeight + getEntitySeatOffset(passengers.get(0));
-//    }
+    @Override
+    public Vec3 getPassengerRidingPosition(Entity entity) {
+        return this.position().add(new Vec3(0.0, getPassengersRidingOffset(), 0.0));
+    }
+
+    public double getPassengersRidingOffset() {
+        List<Entity> passengers = this.getPassengers();
+        if (passengers.isEmpty()) return 0.0;
+        double seatHeight = 0.0;
+        BlockState state = this.level().getBlockState(this.blockPosition());
+        if (state.getBlock() instanceof SeatBlock seatBlock) seatHeight = seatBlock.seatHeight(state);
+
+        return seatHeight + getEntitySeatOffset(passengers.getFirst());
+    }
 
     public static double getEntitySeatOffset(Entity entity) {
         if (entity instanceof Slime) return 1 / 4f;

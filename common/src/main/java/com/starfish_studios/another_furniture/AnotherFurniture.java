@@ -21,7 +21,6 @@ public class AnotherFurniture {
         AFBlockTags.init();
         IntegrationHandler.init();
     }
-
     public static ResourceLocation res(String name) {
         return ResourceLocation.fromNamespaceAndPath(MOD_ID, name);
     }

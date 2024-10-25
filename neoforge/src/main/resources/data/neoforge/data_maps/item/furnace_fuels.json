@@ -1,0 +1,16 @@
+{
+	"values": {
+		"#another_furniture:benches": {"burn_time": 300},
+		"#another_furniture:chairs": {"burn_time": 300},
+		"#another_furniture:curtains": {"burn_time": 300},
+		"#another_furniture:drawers": {"burn_time": 300},
+		"#another_furniture:flower_boxes": {"burn_time": 300},
+		"#another_furniture:grandfather_clocks": {"burn_time": 300},
+		"#another_furniture:lamps": {"burn_time": 300},
+		"#another_furniture:shelves": {"burn_time": 300},
+		"#another_furniture:sofas": {"burn_time": 300},
+		"#another_furniture:stools": {"burn_time": 300},
+		"#another_furniture:tables": {"burn_time": 300},
+		"#another_furniture:tall_stools": {"burn_time": 300}
+	}
+}

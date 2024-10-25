@@ -84,7 +84,7 @@ public class SofaBlock extends SeatBlock implements SimpleWaterloggedBlock {
 
     @Override
     public float seatHeight(BlockState state) {
-        return 0.15F;
+        return 0.35F;
     }
 
     @Override
