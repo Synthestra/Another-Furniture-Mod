@@ -10,14 +10,12 @@ import net.minecraft.world.level.block.Block;
 
 public class AFItemTags {
 
-    public static final TagKey<Item> AWNINGS = itemTag("awnings");
     public static final TagKey<Item> BENCHES = itemTag("benches");
     public static final TagKey<Item> CHAIRS = itemTag("chairs");
     public static final TagKey<Item> CURTAINS = itemTag("curtains");
     public static final TagKey<Item> DRAWERS = itemTag("drawers");
     public static final TagKey<Item> GRANDFATHER_CLOCKS = itemTag("grandfather_clocks");
     public static final TagKey<Item> LAMPS = itemTag("lamps");
-    public static final TagKey<Item> LATTICES = itemTag("lattices");
     public static final TagKey<Item> PLANTER_BOXES = itemTag("planter_boxes");
     public static final TagKey<Item> SHELVES = itemTag("shelves");
     public static final TagKey<Item> SHUTTERS = itemTag("shutters");

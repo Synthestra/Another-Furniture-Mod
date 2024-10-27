@@ -9,9 +9,9 @@ import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 
 @Mod(AnotherFurniture.MOD_ID)
-public class AnotherFurnitureForge {
+public class AnotherFurnitureNeoForge {
 
-    public AnotherFurnitureForge(IEventBus bus) {
+    public AnotherFurnitureNeoForge(IEventBus bus) {
         AnotherFurniture.init();
 
         AFRegistryImpl.BLOCKS.register(bus);

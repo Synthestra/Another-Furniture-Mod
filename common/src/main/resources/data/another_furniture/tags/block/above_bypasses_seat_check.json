@@ -2,7 +2,6 @@
     "replace": false,
     "values": [
         "#another_furniture:curtains",
-		{"id": "#another_furniture:lattices", "required": false},
 		"#another_furniture:shutters",
 		"#minecraft:trapdoors"
     ]

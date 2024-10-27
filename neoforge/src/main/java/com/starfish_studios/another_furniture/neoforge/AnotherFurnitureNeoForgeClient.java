@@ -10,7 +10,7 @@ import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.neoforge.client.event.EntityRenderersEvent;
 
 @EventBusSubscriber(modid = AnotherFurniture.MOD_ID, value = Dist.CLIENT, bus = EventBusSubscriber.Bus.MOD)
-public class AnotherFurnitureForgeClient {
+public class AnotherFurnitureNeoForgeClient {
     @SubscribeEvent
     public static void init(FMLClientSetupEvent event) {
         AnotherFurnitureClient.init();

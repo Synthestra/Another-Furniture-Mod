@@ -13,7 +13,6 @@ public class AFFurnaceFuelRegistry {
         register(AFItemTags.DRAWERS, 300);
         register(AFItemTags.GRANDFATHER_CLOCKS, 300);
         register(AFItemTags.LAMPS, 300);
-        register(AFItemTags.LATTICES, 300);
         register(AFItemTags.PLANTER_BOXES, 300);
         register(AFItemTags.SHELVES, 300);
         register(AFItemTags.SHUTTERS, 300);
