@@ -1,17 +1,17 @@
 modLoader = "javafml"
 loaderVersion = "[4,)"
 #issueTrackerURL = ""
-license = "Insert License Here"
+license = "MIT"
 
 [[mods]]
 modId = "another_furniture"
 version = "${version}"
 displayName = "Another Furniture"
-authors = "Me!"
+authors = "Starfish Studios, Crispytwig, Synthestra"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+Decorating your home just got better! Another Furniture adds various furniture, with the goal of staying vanilla-styled and consistently sized, keeping normal blocks and player sizes in mind.
 '''
-#logoFile = ""
+logoFile = "icon.png"
 
 [[dependencies.another_furniture]]
 modId = "neoforge"
