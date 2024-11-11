@@ -121,4 +121,10 @@ public class LampConnectorBlock extends Block implements SimpleWaterloggedBlock 
             case BLACK -> AFBlocks.BLACK_LAMP.get();
         };
     }
+
+    @Override
+    public String getDescriptionId() {
+        Block lamp = getLampByColor(color);
+        return lamp.getDescriptionId();
+    }
 }

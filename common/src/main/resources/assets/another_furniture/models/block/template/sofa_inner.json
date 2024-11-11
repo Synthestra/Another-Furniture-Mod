@@ -4,11 +4,11 @@
 		"wood_1": "another_furniture:block/sofa/wood_1",
 		"wood_2": "another_furniture:block/sofa/wood_2",
 		"bottom": "another_furniture:block/sofa/bottom_inner",
-		"particle": "another_furniture:block/sofa/white_seat_inner",
 		"seat_top": "another_furniture:block/sofa/white_seat_inner",
 		"seat_front": "another_furniture:block/sofa/white_seat_front",
 		"seat_back_2": "another_furniture:block/sofa/white_seat_back_2",
-		"back": "another_furniture:block/sofa/white_back"
+		"back": "another_furniture:block/sofa/white_back",
+		"particle": "#seat_top"
 	},
 	"elements": [
 		{
